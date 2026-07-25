@@ -9,9 +9,13 @@ CREATE TABLE student(
    DepartmentID INT(50)NOT NULL
    );
 -- Insert sample records
+INSERT INTO Student (StudentID, StudentName, Gender, DeaprtmentID)
+VALUES (1001, 'Arun', 'Male', 101),
+(1002, 'Divya', 'Female', 102),
+(1003, 'Karthick', 'Male', 101);
 
 -- Update Karthik's DepartmentID
 
 -- Delete StudentID 1002
-
+delete from stud
 -- Display all records
